@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        </script>
+        <link id="codyframe" rel="stylesheet" href="weekly-schedule.css">
+      <!---Putem sa nu o punem  <link rel="stylesheet" href="app-demo.css">-->
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .height-25\% {
+                height: 25%;
+            }
+
+            @media (min-width: 64rem) {
+                .width-30\%\@md {
+                    width: 30%;
+                }
+
+                .width-70\%\@md {
+                    width: 70%;
+                }
+
+                .height-100\%\@md {
+                    height: 100%;
+                }
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container max-width-xl padding-y-xl js-cd-demo">
+            <div class="w-schedule js-tabs js-w-schedule" data-w-schedule-timeline="09:00-18:00">
+                <ul class="w-schedule__controls js-tabs__controls" aria-label="Select day">
+                    <li class="w-schedule__control-wrapper">
+                        <a class="w-schedule__control" href="#w-schedule-mon" aria-selected="true">
+                            <div class="text-xs opacity-50% text-uppercase letter-spacing-md margin-bottom-xxs">Mon</div>
+                            <div class="text-lg font-medium line-height-1">L</div>
+                        </a>
+                    </li>
+                    <li class="w-schedule__control-wrapper">
+                        <a class="w-schedule__control" href="#w-schedule-tue">
+                            <div class="text-xs opacity-50% text-uppercase letter-spacing-md margin-bottom-xxs">Tue</div>
+                            <div class="text-lg font-medium line-height-1">M</div>
+                        </a>
+                    </li>
+                    <li class="w-schedule__control-wrapper">
+                        <a class="w-schedule__control" href="#w-schedule-wed">
+                            <div class="text-xs opacity-50% text-uppercase letter-spacing-md margin-bottom-xxs">Wed</div>
+                            <div class="text-lg font-medium line-height-1">M</div>
+                        </a>
+                    </li>
+                    <li class="w-schedule__control-wrapper">
+                        <a class="w-schedule__control" href="#w-schedule-thu">
+                            <div class="text-xs opacity-50% text-uppercase letter-spacing-md margin-bottom-xxs">Thu</div>
+                            <div class="text-lg font-medium line-height-1">J</div>
+                        </a>
+                    </li>
+                    <li class="w-schedule__control-wrapper">
+                        <a class="w-schedule__control" href="#w-schedule-fri">
+                            <div class="text-xs opacity-50% text-uppercase letter-spacing-md margin-bottom-xxs">Fri</div>
+                            <div class="text-lg font-medium line-height-1">V</div>
+                        </a>
+                    </li>
+                    <li class="w-schedule__control-wrapper">
+                        <a class="w-schedule__control" href="#w-schedule-sat">
+                            <div class="text-xs opacity-50% text-uppercase letter-spacing-md margin-bottom-xxs">Sat</div>
+                            <div class="text-lg font-medium line-height-1">S</div>
+                        </a>
+                    </li>
+                </ul>
+                                        <!------------------LUNI---------------------->
+                <div class="w-schedule__days js-tabs__panels">
+                    <section id="w-schedule-mon" class="w-schedule__day js-tabs__panel">
+                        <div class="w-schedule__col-label text-sm">Monday</div>
+                        <ul class="w-schedule__events">
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--1 js-w-schedule__event" data-w-schedule-event="1">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="8:00PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Asistenta pentru programarea server-side al site-urilor WEB</div>
+                                 <div class="text-sm opacity-60% text-xs@md">Cabinetul 30</div>
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--2 js-w-schedule__event"  data-w-schedule-event="2">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="9:30PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Programarea server-side al site-urilor WEB</div>
+                               <div class="text-sm opacity-60% text-xs@md">Cabinetul 30</div>
+
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--3 js-w-schedule__event"   data-w-schedule-event="3">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="11:00PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Limba Engleză</div>
+                                    <div class="text-sm opacity-60% text-xs@md">Cabinetul 45</div>
+
+                                </a>
+                            </li>
+                            <!---
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--1 js-w-schedule__event" data-w-schedule-event="1">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="12:30PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Abs Circuit</div>
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--2 js-w-schedule__event"  data-w-schedule-event="2">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="11:00PT1H30M"></time>
+                                    <div class="text-md font-medium text-base@md">Rowing Workout</div>
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--3 js-w-schedule__event"   data-w-schedule-event="3">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="14:00PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Yoga Level 1</div>
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--3 js-w-schedule__event"   data-w-schedule-event="3">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="15:30PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Yoga Level 1</div>
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--3 js-w-schedule__event"   data-w-schedule-event="3">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="17:00PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Yoga Level 1</div>
+                                </a>
+                            </li>
+                           
+                        </ul>-->
+                        <!------------------MARTI---------------------->
+                    </section>
+                    <section id="w-schedule-tue" class="w-schedule__day js-tabs__panel">
+                        <div class="w-schedule__col-label text-sm">Tuesday</div>
+                        <ul class="w-schedule__events">
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--1 js-w-schedule__event" data-w-schedule-event="1">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="8:00PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Testarea Aplicațiilor WEB</div>
+                                    <div class="text-sm opacity-60% text-xs@md">Cabinetul 30</div>
+
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--2 js-w-schedule__event"  data-w-schedule-event="2">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="9:30PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Programarea server-side al site-urilor WEB</div>
+                                    <div class="text-sm opacity-60% text-xs@md">Cabinetul 30</div>
+
+                                </a>
+                            </li>
+                            <!---
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--3 js-w-schedule__event"   data-w-schedule-event="3">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="11:00PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Yoga Level 1</div>
+                                    <div class="text-sm opacity-60% text-xs@md">Cabinetul 45</div>
+
+                                </a>
+                                
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--1 js-w-schedule__event" data-w-schedule-event="1">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="12:30PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Abs Circuit</div>
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--2 js-w-schedule__event"  data-w-schedule-event="2">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="11:00PT1H30M"></time>
+                                    <div class="text-md font-medium text-base@md">Rowing Workout</div>
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--3 js-w-schedule__event"   data-w-schedule-event="3">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="14:00PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Yoga Level 1</div>
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--3 js-w-schedule__event"   data-w-schedule-event="3">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="15:30PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Yoga Level 1</div>
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--3 js-w-schedule__event"   data-w-schedule-event="3">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="17:00PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Yoga Level 1</div>
+                                </a>
+                            </li>
+                           
+                        </ul>-->
+                    </section>
+                                            <!------------------MIERCURI---------------------->
+                    <section id="w-schedule-wed" class="w-schedule__day js-tabs__panel">
+                        <div class="w-schedule__col-label text-sm">Wednesday</div>
+                        <ul class="w-schedule__events">
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--4 js-w-schedule__event"  data-w-schedule-event="4">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="08:00PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Bazele Antreprenoriatului</div>
+                                    <div class="text-sm opacity-60% text-xs@md">Cabinetul 41</div>
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--3 js-w-schedule__event"  data-w-schedule-event="3">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="09:30PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Bazele Antreprenoriatului</div>
+                                    <div class="text-sm opacity-60% text-xs@md">Cabinetul 41</div>
+                                </a>
+                            </li>
+                            <!---
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--2 js-w-schedule__event"  data-w-schedule-event="2">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="12:00PT1H45M"></time>
+                                    <div class="text-md font-medium text-base@md">Rowing Workout</div>
+                                    <div class="text-sm opacity-60% text-xs@md">Cabinetul 30</div>
+
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--3 js-w-schedule__event"  data-w-schedule-event="3">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="13:45PT1H15M"></time>
+                                    <div class="text-md font-medium text-base@md">Yoga Level 1</div>
+                                    <div class="text-sm opacity-60% text-xs@md">Cabinetul 30</div>
+
+                                </a>
+                            </li>
+                        </ul>-->
+                    </section>
+                                            <!------------------JOI---------------------->
+                    <section id="w-schedule-thu" class="w-schedule__day js-tabs__panel">
+                        <div class="w-schedule__col-label text-sm">Thursday</div>
+                        <ul class="w-schedule__events">
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--1 js-w-schedule__event"  data-w-schedule-event="1">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="08:00PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Testarea Aplicațiilor WEB</div>
+                                    <div class="text-sm opacity-60% text-xs@md">Cabinetul 30</div>
+
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--4 js-w-schedule__event"  data-w-schedule-event="4">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="09:30PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Testarea Aplicațiilor WEB</div>
+                                    <div class="text-sm opacity-60% text-xs@md">Cabinetul 30</div>
+
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--1 js-w-schedule__event"  data-w-schedule-event="1">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="11:00PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">///////////////</div>
+                                    <!---<div class="text-sm opacity-60% text-xs@md">Cabinetul 41</div>-->
+
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--2 js-w-schedule__event"  data-w-schedule-event="2">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="12:30PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Utilizarea Sistemelor De Operare În Rețea</div>
+                                    <div class="text-sm opacity-60% text-xs@md">Cabinetul 30</div>
+
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--3 js-w-schedule__event"  data-w-schedule-event="3">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="09:30PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">Bazele Antreprenoriatului</div>
+                                    <div class="text-sm opacity-60% text-xs@md">Cabinetul 4</div>
+                                </a>
+                            </li>
+                       
+                        <li class="w-schedule__event-wrapper">
+                            <a class="w-schedule__event w-schedule__event--2 js-w-schedule__event"  data-w-schedule-event="2">
+                                <time class="text-sm opacity-60% text-xs@md" datetime="12:30PT1H20M"></time>
+                                <div class="text-md font-medium text-base@md">Limba Franceză</div>
+                                <div class="text-sm opacity-60% text-xs@md">Cabinetul 4</div>
+
+                            </a>
+                        </li>
+                    </section>
+                                                <!------------------VINERI---------------------->
+                    <section id="w-schedule-fri" class="w-schedule__day js-tabs__panel">
+                        <div class="w-schedule__col-label text-sm">Friday</div>
+                        <ul class="w-schedule__events">
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--1 js-w-schedule__event"  data-w-schedule-event="1">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="8:00PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">///////////////</div>
+                                    <!---<div class="text-sm opacity-60% text-xs@md">Cabinetul 41</div>-->
+
+                                </a>
+                            </li>
+                            <!----La w-schedule__ event--1 acolo trebuie de apasat ca sa ne ducem la css si sa schimbam culoarea -->
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--1 js-w-schedule__event"  data-w-schedule-event="1">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="9:30PT1H20M"></time>
+                                    <div class="text-md font-medium text-base@md">///////////////</div>
+                                    <!---<div class="text-sm opacity-60% text-xs@md">Cabinetul 41</div>-->
+
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+                                <a class="w-schedule__event w-schedule__event--3 js-w-schedule__event"  data-w-schedule-event="3">
+                                    <time class="text-sm opacity-60% text-xs@md" datetime="15:45PT1H"></time>
+                                    <div class="text-md font-medium text-base@md">Securitatea și sănatatea în munca</div>
+                               <div class="text-sm opacity-60% text-xs@md">Cabinetul 22</div>
+                                </a>
+                            </li>
+                            <li class="w-schedule__event-wrapper">
+
+                            <a class="w-schedule__event w-schedule__event--2 js-w-schedule__event"  data-w-schedule-event="2">
+                                <time class="text-sm opacity-60% text-xs@md" datetime="12:30PT1H20M"></time>
+                                <div class="text-md font-medium text-base@md">Asistență Pentru securatea Informatională</div>
+                                <div class="text-sm opacity-60% text-xs@md">Cabinetul 39</div>
+                            </a>
+                        </li>
+                        <li class="w-schedule__event-wrapper">
+
+                            <a class="w-schedule__event w-schedule__event--2 js-w-schedule__event"  data-w-schedule-event="2">
+                                <time class="text-sm opacity-60% text-xs@md" datetime="14:00PT1H20M"></time>
+                                <div class="text-md font-medium text-base@md">Utilizarea Sistemelor De Operare </div>
+                                <div class="text-sm opacity-60% text-xs@md">Cabinetul 39</div>
+
+                            </a>
+                        </li>
+                        <li class="w-schedule__event-wrapper">
+
+                            <a class="w-schedule__event w-schedule__event--2 js-w-schedule__event"  data-w-schedule-event="2">
+                                <time class="text-sm opacity-60% text-xs@md" datetime="15:30PT1H20M"></time>
+                                <div class="text-md font-medium text-base@md">Utilizarea Sistemelor De Operare</div>
+                                <div class="text-sm opacity-60% text-xs@md">Cabinetul 39</div>
+
+                            </a>
+                        </li>
+                        </ul>
+                    </section>
+                                                    <!------------------SAMBATA---------------------->
+                    <section id="w-schedule-sat" class="w-schedule__day js-tabs__panel">
+                        <div class="w-schedule__col-label text-sm">Saturday</div>
+                        <p class="text-center hide@md">Nu avem ore Sămbata 🎉</p>
+                    </section>
+                </div>
+                <div class="w-schedule__grid js-w-schedule__grid" aria-hidden="true"></div>
+            </div>
+            <div id="w-schedule-modal-id" class="w-schedule-modal modal modal--animate-fade bg-black bg-opacity-90% js-w-schedule-modal js-modal">
+                <div class="w-schedule-modal__content modal__content bg radius-md inner-glow shadow-md opacity-0 flex@md js-w-schedule-modal__content" role="alertdialog" aria-label="Event Info">
+                    <div class="ske height-25% width-30%@md height-100%@md" aria-hidden="true"></div>
+                    <div class="padding-md width-70%@md height-100%@md" aria-hidden="true">
+                        <ul class="grid gap-xs">
+                            <li class="col-3 padding-bottom-sm">
+                                <div class="ske ske--text text-xl"></div>
+                            </li>
+                            <li>
+                                <div class="ske ske--text"></div>
+                            </li>
+                            <li>
+                                <div class="ske ske--text"></div>
+                            </li>
+                            <li class="col-6">
+                                <div class="ske ske--text"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="w-schedule-morph-bg bg radius-md is-hidden js-w-schedule-morph-bg" aria-hidden="true"></div>
+            <button class="reset w-schedule-close-btn js-tab-focus js-w-schedule-close-btn">
+                <svg class="icon icon--sm" viewBox="0 0 24 24">
+                    <title>Close modal window</title>
+                    <g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="3" x2="21" y2="21"/>
+                        <line x1="21" y1="3" x2="3" y2="21"/>
+                    </g>
+                </svg>
+            </button>
+        </div>
+        <script src="util.js"></script>
+        <script src="weekly-schedule.min.js"></script>
+   <script>
+            var wSchedule = document.getElementsByClassName('js-w-schedule')[0];
+
+            var searchValues = [{
+                id: 1,
+                content: '<a class="w-schedule-modal__figure height-25% width-30%@md height-100%@md" href="#0"><img src="../../../app/assets/img/weekly-schedule-img-1.jpg" alt="Image description"></a><div class="w-schedule-modal__body padding-md width-70%@md height-100%@md"><div class="text-component"><h1 class="text-xl">Abs Circuit</h1><p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur et labore esse mollitia. Pariatur error nesciunt ab illum.</p><p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat ex sunt?</p><p><button class="btn btn--primary">Book Class</button></p></div></div>'
+            }, {
+                id: 2,
+                content: '<a class="w-schedule-modal__figure height-25% width-30%@md height-100%@md" href="#0"><img src="../../../app/assets/img/weekly-schedule-img-2.jpg" alt="Image description"></a><div class="w-schedule-modal__body padding-md width-70%@md height-100%@md"><div class="text-component"><h1 class="text-xl">Rowing Workout</h1><p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur et labore esse mollitia. Pariatur error nesciunt ab illum.</p><p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat ex sunt?</p><p><button class="btn btn--primary">Book Class</button></p></div></div>'
+            }, {
+                id: 3,
+                content: '<a class="w-schedule-modal__figure height-25% width-30%@md height-100%@md" href="#0"><img src="../../../app/assets/img/weekly-schedule-img-3.jpg" alt="Image description"></a><div class="w-schedule-modal__body padding-md width-70%@md height-100%@md"><div class="text-component"><h1 class="text-xl">Yoga Level 1</h1><p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur et labore esse mollitia. Pariatur error nesciunt ab illum.</p><p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat ex sunt?</p><p><button class="btn btn--primary">Book Class</button></p></div></div>'
+            }, {
+                id: 4,
+                content: '<a class="w-schedule-modal__figure height-25% width-30%@md height-100%@md" href="#0"><img src="../../../app/assets/img/weekly-schedule-img-4.jpg" alt="Image description"></a><div class="w-schedule-modal__body padding-md width-70%@md height-100%@md"><div class="text-component"><h1 class="text-xl">Restorative Yoga</h1><p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur et labore esse mollitia. Pariatur error nesciunt ab illum.</p><p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat ex sunt?</p><p><button class="btn btn--primary">Book Class</button></p></div></div>'
+            }];
+            new WSchedule({
+                element: wSchedule,
+                searchData: function(trigger, cb) {
+                    var event = trigger.getAttribute('data-w-schedule-event') || 1;
+                    var data = searchValues.filter(function(item) {
+                        return item['id'] == event;
+                    });
+                    // wait to load the image
+                    loadImage(event, function() {
+                        setTimeout(function() {
+                            cb(data[0]['content']);
+                        }, 1000);
+                    });
+                }
+            });
+
+            function loadImage(id, cb) {
+                var src = '../../../app/assets/img/weekly-schedule-img-' + id + '.jpg';
+                var image = new Image();
+                var loaded = false;
+                image.onload = function() {
+                    if (loaded)
+                        return;
+                    cb();
+                }
+                image.src = src;
+                if (image.complete) {
+                    loaded = true;
+                    cb();
+                }
+            }
+            ;</script>
+    </body>
+</html>
