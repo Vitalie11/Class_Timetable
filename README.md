@@ -1,4 +1,5 @@
 ![image](https://github.com/Vitalie11/Class_Timetable/assets/86378065/c3f12244-914a-475b-8022-e42805ed0c73)
+
 This schedule was created with the help of html and css 
 I am used a simple and modern design
 I maded this page adaptable for all mobile devices
